@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Better Settings</name>
+	<author>Speedysnail6</author>
+	<version>Air</version>
+	<blurb>Better settings should be on every elgg site!</blurb>
+	<description>A plugin that makes many more settings for elgg from custimization to content!</description>
+	<website>http://speedysnail6.com</website>
+	<copyright>(C) Speedysnail6 2013</copyright>
+	<license>GNU Public License version 2</license>
+ 
+	<category>Themes</category>
+ 
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+ 
+	<screenshot>
+		<description>No screenshots yet</description>
+		<path>none.png</path>
+	</screenshot>
+ 
+	<provides>
+		<type>plugin</type>
+		<name>better_settings</name>
+		<version>Air</version>
+	</provides>
+ 
+	<suggests>
+		<type>plugin</type>
+		<name>profile_manager</name>
+		<version>7.5.1</version>
+	</suggests>
+</plugin_manifest>
