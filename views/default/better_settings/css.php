@@ -6,8 +6,7 @@ $headerbackgroundcolor = elgg_get_plugin_setting('headerbackgroundcolor', 'bette
 .elgg-page-header {
 	<?php
 	if ( $headerbackground = '2' ) {
-	echo 'background-color: red;';
+	echo 'background-color: #' . $headerbackgroundcolor . ';';
 	}
 	?>
 }
-
